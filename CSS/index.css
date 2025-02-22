@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(241, 241, 242);
+}
+#acc{
+    width: 100%;
+}
+#the_firstline{
+    background-color: rgb(241, 241, 242);
+}
+#first_C1 img{
+    width: 4%;
+}
+#first_C1 a{
+    color: #F68B1E;
+    font-size: .8rem;
+}
+#first_C2 a img{
+    width: 10%;
+}
+#first_C2{
+    /* align-content: center; */
+}
+#HRC1 img{
+    width: 60%;
+}
+#HRC1 i{
+    width:10%;
+}
+#HRC1 button{
+    font-size: 1.5em;
+}
+#HRC2 button{
+    background-color: #F68B1E;
+}
+#HRC3 > ul > li > a > i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#HRC3 > ul > li > a > span > i{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+#HRC3 a:hover{
+    color: #F68B1E;
+}
+#mainCon{
+    background-color: rgb(241, 241, 242);
+}
+#R1{
+    column-gap: 1.5em;
+}
+#R1C1 div a{
+    text-decoration: none;
+    display: block;
+    font-size: .8rem;
+    color: black;
+} 
+#R1C1 div{
+    padding: 5px;
+}
+#R1C3_Jforce img{
+    width: 100%;
+}
+#R1C3_Box{
+    font-size: .9rem;
+    /* position: relative; */
+    width: 100%;
+    
+}
+#R1C3_Box small{
+    font-size: .8rem;
+    /* margin-left: 3rem; */
+    /* margin-bottom: -10rem; */
+    /* position: absolute;
+    left: 60;
+    top: 35; */
+    
+}
+#R1C3_Box img{
+    width: 18%;
+}
+#R1C3_Box > div{
+    padding: 12px;
+}
+#R2{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R2 > div:hover{
+    transform: scale(1.05);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R3{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R3 > div:hover{
+    transform: scale(1.05);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
