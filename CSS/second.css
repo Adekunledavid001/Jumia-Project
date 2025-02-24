@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logBox{
+    width: 50%;
+    font-size: 1rem;
+    padding-inline: 3rem;
+}
+#logBox #agree{
+    font-size: 0.75rem;
+}
+#logBox #agree a{
+    color: #F68B1E;
+}
+#logBox #support{
+    font-size: 0.875rem;
+}
+#logBox form button{
+    color: white;
+    background-color: #F68B1E;
+}

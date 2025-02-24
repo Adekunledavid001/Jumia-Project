@@ -275,6 +275,66 @@ main{
 #R15Head{
     background-color: rgb(39, 96, 118);
 }
+#R16{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R16 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R16 a{
+    text-decoration: none;
+    color: black;
+}
+#R16Head{
+    background-color: rgb(254, 226, 204);
+}
+#R17{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R17 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R17 a{
+    text-decoration: none;
+    color: black;
+}
+#R17Head{
+    background-color: rgb(254, 226, 204);
+}
+#R18{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R18 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R18 a{
+    text-decoration: none;
+    color: black;
+}
+#R18Head{
+    background-color: rgb(254, 226, 204);
+}
+#R19{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R19 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R19 a{
+    text-decoration: none;
+    color: black;
+}
+#R19Head{
+    background-color: rgb(254, 226, 204);
+}
 #R20C{
     font-size: .75rem;
 }

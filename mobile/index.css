@@ -2,4 +2,18 @@
     #HRC1 img{
         width: 45%;
     }
+    #logBox{
+        width: 60%;
+    }
+}
+@media (width < 992px){
+    #logBox{
+        width: 80%;
+    }
+}
+@media (width < 768px){
+    #logBox{
+        width: 100%;
+        padding-inline: 1rem;
+    }
 }
