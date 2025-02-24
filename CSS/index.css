@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 main{
-    background-color: rgb(241, 241, 242);
+    background-color: rgb(236, 236, 237);
 }
 #acc{
     width: 100%;
 }
 #the_firstline{
-    background-color: rgb(241, 241, 242);
+    background-color: rgb(236, 236, 237);
 }
 #first_C1 img{
     width: 4%;
@@ -49,7 +49,11 @@ main{
     color: #F68B1E;
 }
 #mainCon{
-    background-color: rgb(241, 241, 242);
+    background-color: rgb(236, 236, 237);
+}
+#mainCon s{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.696);
 }
 #R1{
     column-gap: 1.5em;
@@ -68,14 +72,13 @@ main{
 }
 #R1C3_Box{
     font-size: .9rem;
-    /* position: relative; */
+    margin-bottom: 2.2rem;
     width: 100%;
     
 }
 #R1C3_Box small{
     font-size: .8rem;
     /* margin-left: 3rem; */
-    /* margin-bottom: -10rem; */
     /* position: absolute;
     left: 60;
     top: 35; */
@@ -92,14 +95,239 @@ main{
     font-size: .88em;
 }
 #R2 > div:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R2 a{
+    text-decoration: none;
+    color: black;
 }
 #R3{
     column-gap: .5em;
     font-size: .88em;
 }
 #R3 > div:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R3 a{
+    text-decoration: none;
+    color: black;
+}
+#R4{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R4 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R4 a{
+    text-decoration: none;
+    color: black;
+}
+#R5{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R5 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R5 a{
+    text-decoration: none;
+    color: black;
+}
+#R6{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R6 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R6 a{
+    text-decoration: none;
+    color: black;
+}
+#R7{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R7 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R7 a{
+    text-decoration: none;
+    color: black;
+}
+#R8{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R8 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R8 a{
+    text-decoration: none;
+    color: black;
+}
+#R8Head{
+    background-color: rgb(254, 226, 204);
+}
+#R9{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R9 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R9 a{
+    text-decoration: none;
+    color: black;
+}
+#R9Head{
+    background-color: rgb(254, 226, 204);
+}
+#R10{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R10 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R10 a{
+    text-decoration: none;
+    color: black;
+}
+#R10Head{
+    background-color: rgb(255, 193, 8);
+}
+#R11{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R11 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R11Head{
+    background-color: rgb(254, 226, 204);
+}
+#R12{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R12 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R12 a{
+    text-decoration: none;
+    color: black;
+}
+#R12Head{
+    background-color: rgb(254, 226, 204);
+}
+#R13{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R13 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R14{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R14 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R14 a{
+    text-decoration: none;
+    color: black;
+}
+#R14Head{
+    background-color: rgb(254, 226, 204);
+}
+#R14Head h5 span{
+    font-weight: 380;
+    border-left: 1.5px solid rgba(0, 0, 0, 0.772);
+}
+#R15{
+    column-gap: .5em;
+    font-size: .88em;
+}
+#R15 > div:hover{
+    transform: scale(1.02);
+    border: thin solid rgba(0, 0, 0, 0.075);
+}
+#R15 a{
+    text-decoration: none;
+    color: black;
+}
+#R15Head{
+    background-color: rgb(39, 96, 118);
+}
+#R20C{
+    font-size: .75rem;
+}
+#R20C a{
+    font-weight: bold;
+    color: black;
+}
+#R20C h1{
+    font-size: 1.125rem;
+}
+#R20C h2{
+    font-size: 1.125rem;
+}
+#R20C h3{
+    font-size: .8775rem;
+}
+#FR1{
+    font-size: .75rem;
+    color: white;  
+}
+#FR1C2 a{
+    text-decoration: none;
+    color: #F68B1E;
+}
+#FR1C2 form button:hover{
+    border-color: #F68B1E;
+    color: #F68B1E;
+}
+#footerFluid01{
+    background-color: rgb(49, 49, 51);
+}
+#FR2{
+    font-size: .75rem;
+    color: white;  
+}
+#FR2 a{
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+}
+#FR2 > div > div{
+    padding-block: .2em;
+}
+#FR2 a:hover{
+    text-decoration: underline;
+}
+#footerFluid02{
+    background-color: rgb(83, 83, 87);
+}
+#FR3 i{
+    color: white;
+    font-size: 1.3em;
+}
+#FR3 i:hover{
+    color: #F68B1E;
 }
