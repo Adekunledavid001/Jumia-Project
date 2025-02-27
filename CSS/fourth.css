@@ -3,3 +3,204 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header start */
+#Bbody{
+    background-color: rgb(236, 236, 237);
+}
+main{
+    /* background-color: rgb(236, 236, 237); */
+}
+#acc{
+    width: 100%;
+}
+#the_firstline{
+    background-color: rgb(236, 236, 237);
+}
+#first_C1 img{
+    width: 4%;
+}
+#first_C1 a{
+    color: #F68B1E;
+    font-size: .8rem;
+}
+#first_C2 a img{
+    width: 10%;
+}
+#first_C2{
+    /* align-content: center; */
+}
+#HRC1 img{
+    width: 60%;
+}
+#HRC1 i{
+    width:10%;
+}
+#HRC1 button{
+    font-size: 1.5em;
+}
+#HRC2 button{
+    background-color: #F68B1E;
+}
+#HRC3 > ul > li > a > i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#HRC3 > ul > li > a > span > i{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+#HRC3 a:hover{
+    color: #F68B1E;
+}
+#mainCon{
+    background-color: rgb(236, 236, 237);
+}
+/* Header end */
+
+
+#pg4UpperBg{
+    height: 200px;
+    font-size: 1.08rem;
+    font-weight: 500;
+    background-color: rgb(255, 207, 145);
+}
+#pg4R1{
+    margin-top: -50px;
+    width: 100%;
+    column-gap: 1rem;
+    top: 100;
+    /* font-size: 1.08rem; */
+    font-weight: 500;
+}
+#pg4R1 b{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1.25rem;
+}
+#pg4R1 a img{
+    width: 40%;
+}
+#pg4R1 a{
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 0 0 .6rem;
+}
+#pg4R2 form{
+    width: 39%;
+}
+#invR2C2 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    border: thin solid rgba(0, 0, 0, 0.203);
+    padding: 1rem;
+    background-color: white; 
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+#invR2C2 a i{
+    color: #F68B1E;
+}
+#pg4R3{
+    column-gap: 1rem;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+#pg4R3C1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    border: thin solid rgba(0, 0, 0, 0.203);
+    padding: 1rem;
+    background-color: white;
+}
+#pg4R3C1 a:first-child{
+    border-left: thick solid #F68B1E;
+}
+#pg4R3C1 a:active{
+    border-left: thick solid #F68B1E;
+}
+#pg4R3C1 a i{
+    color: #F68B1E;
+}
+#pg4R3C2{
+    background-color: white;
+}
+#accordionExample button{
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+#pg4R4Heading{
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+#pg4R4 img{
+    height: 4.375rem;
+}
+#pg4R4C1{
+    background-color: white;
+}
+#pg4R4C2{
+    background-color: white;
+}
+/* Footer start */
+#footAppear{
+    font-size: .625rem;
+    /* padding: 2rem; */
+}
+#footAppear div{
+    padding: .5rem;
+}
+#footAppear div a{
+    width: 100%;
+    text-wrap: nowrap;
+    /* padding: rem; */
+}
+#FR1{
+    font-size: .75rem;
+    color: white;  
+}
+#FR1C2 a{
+    text-decoration: none;
+    color: #F68B1E;
+}
+#FR1C2 form button:hover{
+    border-color: #F68B1E;
+    color: #F68B1E;
+}
+#footerFluid01{
+    background-color: rgb(49, 49, 51);
+}
+#FR2{
+    font-size: .75rem;
+    color: white;  
+}
+#FR2 a{
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+}
+#FR2 > div > div{
+    padding-block: .2em;
+}
+#FR2 a:hover{
+    text-decoration: underline;
+}
+#footerFluid02{
+    background-color: rgb(83, 83, 87);
+}
+#FR3 i{
+    color: white;
+    font-size: 1.3em;
+}
+#FR3 i:hover{
+    color: #F68B1E;
+}
+/* Footer end */

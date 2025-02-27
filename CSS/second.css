@@ -3,21 +3,138 @@
     padding: 0;
     box-sizing: border-box;
 }
-#logBox{
-    width: 50%;
-    font-size: 1rem;
-    padding-inline: 3rem;
+/* Header start */
+#Bbody{
+    background-color: rgb(236, 236, 237);
 }
-#logBox #agree{
-    font-size: 0.75rem;
+main{
+    /* background-color: rgb(236, 236, 237); */
 }
-#logBox #agree a{
+#acc{
+    width: 100%;
+}
+#the_firstline{
+    background-color: rgb(236, 236, 237);
+}
+#first_C1 img{
+    width: 4%;
+}
+#first_C1 a{
     color: #F68B1E;
+    font-size: .8rem;
 }
-#logBox #support{
-    font-size: 0.875rem;
+#first_C2 a img{
+    width: 10%;
 }
-#logBox form button{
-    color: white;
+#first_C2{
+    /* align-content: center; */
+}
+#HRC1 img{
+    width: 60%;
+}
+#HRC1 i{
+    width:10%;
+}
+#HRC1 button{
+    font-size: 1.5em;
+}
+#HRC2 button{
     background-color: #F68B1E;
 }
+#HRC3 > ul > li > a > i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#HRC3 > ul > li > a > span > i{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+#HRC3 a:hover{
+    color: #F68B1E;
+}
+#mainCon{
+    background-color: rgb(236, 236, 237);
+}
+/* Header end */
+
+#sellBox{
+    font-size: 0.8rem;
+}
+#sellBox button{
+    font-size: 0.8rem;
+}
+#RectImg{
+    width: 100%;
+    height: 100%;
+}
+#pg2R2{
+    column-gap: .4rem;
+}
+#pg2R2 button{
+    width: 100%;
+    /* height: 100%; */
+}
+#Bfont{
+    font-size: .88rem;
+}
+#pg2R4 button{
+    background-color: #F68B1E;
+}
+.cirImg{
+    margin-left: 3rem;
+}
+
+/* Footer start */
+#footAppear{
+    font-size: .625rem;
+    /* padding: 2rem; */
+}
+#footAppear div{
+    padding: .5rem;
+}
+#footAppear div a{
+    width: 100%;
+    text-wrap: nowrap;
+    /* padding: rem; */
+}
+#FR1{
+    font-size: .75rem;
+    color: white;  
+}
+#FR1C2 a{
+    text-decoration: none;
+    color: #F68B1E;
+}
+#FR1C2 form button:hover{
+    border-color: #F68B1E;
+    color: #F68B1E;
+}
+#footerFluid01{
+    background-color: rgb(49, 49, 51);
+}
+#FR2{
+    font-size: .75rem;
+    color: white;  
+}
+#FR2 a{
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+}
+#FR2 > div > div{
+    padding-block: .2em;
+}
+#FR2 a:hover{
+    text-decoration: underline;
+}
+#footerFluid02{
+    background-color: rgb(83, 83, 87);
+}
+#FR3 i{
+    color: white;
+    font-size: 1.3em;
+}
+#FR3 i:hover{
+    color: #F68B1E;
+}
+/* Footer end */

@@ -5,6 +5,45 @@
     #logBox{
         width: 60%;
     }
+    main{
+        width: 35%;
+        margin-inline: auto;
+    }
+    #colRect{
+        height: 10rem;
+    }
+    #pg2R2 button{
+        font-size: 0.7rem;
+        
+    }
+    #pg2R2{
+        column-gap: 0rem;
+    }
+    #pg4Main{
+        width: 40%;
+    }
+    #pg4R1{
+        display: none;
+    }
+    #pg4UpperBg h3{
+        font-size: 0.81rem;
+        margin: 5px 0;
+    }
+    #pg4UpperBg{
+        font-size: 0.875rem;
+        font-weight: 500;
+        height: 9.375rem;
+    }
+    #pg4R3C1{
+        margin-top: -36px;
+    }
+    #invR{
+        font-weight: 500;
+    }
+    #invRC1{
+        width: 95%;
+    }
+    
 }
 @media (width < 992px){
     #logBox{
@@ -16,4 +55,44 @@
         width: 100%;
         padding-inline: 1rem;
     }
+    #invR1{
+        display: none;
+    }
 }
+
+
+@media (width < 1095px){
+    main{
+        width: 40%;
+    }
+}
+@media (width < 958px){
+    main{
+        width: 50%;
+    }
+}
+@media (width < 766px){
+    main{
+        width: 60%;
+    }
+}
+@media (width < 639px){
+    main{
+        width: 70%;
+    }
+}
+@media (width < 493px){
+    main{
+        width: 95%;
+    }
+}
+@media (width < 364px){
+    #pg2R2 button{
+        height: 100%;
+    }
+}
+/* @media (width < 392px){
+    #HRC3{
+        display: none;
+    }
+} */
