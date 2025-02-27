@@ -37,10 +37,10 @@
     #pg4R3C1{
         margin-top: -36px;
     }
-    #invR{
+    #invR1{
         font-weight: 500;
     }
-    #invRC1{
+    #invR1C1{
         width: 95%;
     }
     
@@ -48,6 +48,9 @@
 @media (width < 992px){
     #logBox{
         width: 80%;
+    }
+    #pg4Main{
+        width: 50%;
     }
 }
 @media (width < 768px){
@@ -57,6 +60,45 @@
     }
     #invR1{
         display: none;
+    }
+    #pg4R3C1{
+        padding-inline: 0;
+    }
+    #pg4Main{
+        width: 60%;
+    }
+    #pg4R3Freq{
+        margin: 30px 0 45px 0;
+        /* width: 100%; */
+        font-size: 1.08rem;
+        font-weight: 500;
+    }
+    #invR2C1{
+        font-size: 1.08rem;
+        font-weight: 500;
+    }
+    #pg4R4 img{
+        height: 3rem;
+    }
+    #pg3R1C2{
+        position: relative;
+    }
+    #pg3R1C2{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80;
+    }
+}
+@media (width >= 1200px){
+    #pg4R3C1{
+        padding-inline: 0;
+    }
+   
+}
+@media (width < 576px){
+    #pg4Main{
+        width: 100%;
     }
 }
 

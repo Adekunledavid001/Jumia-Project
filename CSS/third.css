@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+#pg3Box{
+    padding-top: 150px;
+}
+#pg3R1{
+    column-gap: 1rem;
+}
+#pg3R1C2{
+    padding-top: 60px;
+}
+#pg3R1C2 > button{
+    background-color: white;
+    font-weight: 500;
+    width: 100%;
+    border:thin solid rgb(54, 83, 163);
+    color: rgb(54, 83, 163);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#pg3Select:hover{
+    border: medium solid black;
+}
+#pg3Select:active{
+    border: medium solid #F68B1E;
+    color: #F68B1E;
+}
+#pg3SelectBox{
+    background-color: white;
+}
+#pg3SelectBox button{
+    background-color: #F68B1E;
+    color: white;
+}
+#pg3Already{
+    font-weight: 500;
+}
+#pg3Already a{
+    color: #F68B1E; 
+}
+#pg3Foot{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#pg3Foot b{
+    color: #F68B1E;
+}
+#pg3Foot i{
+    color: #F68B1E;
+}
+#pg3Box{
+    background-color: rgb(245, 245, 245);
+}
+#Pg3Body{
+    font-size: .75rem;
+    background-color: rgb(245, 245, 245);
+}
+#pg3KnowMore a{
+    color: rgb(54, 83, 163);
+}

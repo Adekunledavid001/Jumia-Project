@@ -21,3 +21,14 @@
     color: white;
     background-color: #F68B1E;
 }
+#logBox input{
+    width: 100%;
+    border-radius: 5px;
+    border: thin solid rgba(0, 0, 0, 0.37);
+}
+#logBox input:hover{
+    border: thin solid black;
+}
+#logBox input:active{
+    border: medium solid #F68B1E;
+}
