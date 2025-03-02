@@ -23,6 +23,10 @@ main{
 #first_C1 a{
     color: #F68B1E;
     font-size: .8rem;
+    text-decoration: none;
+}
+#first_C1 a:hover{
+    text-decoration: underline;
 }
 #first_C2 a img{
     width: 10%;
@@ -30,29 +34,144 @@ main{
 #first_C2{
     /* align-content: center; */
 }
-#HRC1 img{
+#HRC1Jumimg{
     width: 60%;
 }
 #HRC1 i{
     width:10%;
 }
-#HRC1 button{
+#HRC1But{
     font-size: 1.5em;
 }
+#HRC1Dropdown{
+    background-color: white;
+    padding-block: 0;
+    width: 200px;
+}
+#HRC1Dropdown div{
+    margin-inline: 10px;
+}
+#HRC1Dropdown div a{
+    text-decoration: none;
+    display: block;
+    font-size: .8rem;
+    color: black;
+} 
+#HRC1Dropdown div a:hover{
+    color: #F68B1E;
+} 
+#HRC1Dropdown div{
+    padding: 3px 0px;
+}
+
+/* offCanvass Start
+#canBody{
+    font-size: .5rem;
+}
+#canBody a{
+    text-decoration: none;
+    display: block;
+    font-size: .75rem;
+    font-weight: 400;
+    color: black;
+} 
+#canBody a:active{
+    background-color: #F68B1E;
+} 
+#canBody a:hover{
+    color: #F68B1E;
+} 
+#canBody a{
+    padding: 5px 0px;
+}
+#can1{
+    font-size: .8rem;
+}
+#can2 div{
+    font-size: .8rem;
+}
+#can3 div{
+    font-size: .8rem;
+}
+#can4 div{
+    font-size: .8rem;
+}
+#can4 div span{
+    color: #F68B1E;
+}
+#can5 a{
+    padding-block: 10px;
+}
+#offcanvas End */
+
+/* Navbar dropdown start */
 #HRC2 button{
     background-color: #F68B1E;
 }
-#HRC3 > ul > li > a > i{
+#HRC3{
+    font-weight: 500;
+}
+#HRC3MainLink > i{
     font-size: 1.5rem;
     font-weight: bolder;
 }
-#HRC3 > ul > li > a > span > i{
+#HRC3MainLink > span > i{
     font-size: .8rem;
     font-weight: bolder;
 }
-#HRC3 a:hover{
+#HRC3MainLink:hover{
     color: #F68B1E;
 }
+#drop1Content{
+    width: 200px;
+    font-weight: 350;
+    font-size: .875rem;
+}
+#drop1Content li a{
+    padding-block: 8px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#drop1Content li{
+    padding: 0;
+}
+#drop1Content li a:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+    font-weight: 500;
+}
+#drop1Content li button{
+    background-color: rgb(246, 139, 30);
+    width: 100%;
+    color: white;
+}
+#drop2Content{
+    width: 200px;
+    font-weight: 350;
+    font-size: .875rem;
+}
+#drop2Content li a{
+    padding-block: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 20px;
+}
+#drop2Content li{
+    padding: 0;
+}
+#drop2Content li a:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+    font-weight: 500;
+}
+#drop2Content li button{
+    background-color: #F68B1E;
+    width: 100%;
+    color: white;
+}
+/* Navbar dropdown end */
+
+
 #mainCon{
     background-color: rgb(236, 236, 237);
 }

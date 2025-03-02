@@ -28,29 +28,123 @@ header{
 #first_C2{
     /* align-content: center; */
 }
-#HRC1 img{
+#HRC1Jumimg{
     width: 60%;
 }
 #HRC1 i{
     width:10%;
 }
-#HRC1 button{
+#HRC1But{
     font-size: 1.5em;
 }
+
+/* offCanvass Start */
+#canBody{
+    font-size: .5rem;
+}
+#canBody a{
+    text-decoration: none;
+    display: block;
+    font-size: .75rem;
+    font-weight: 400;
+    color: black;
+} 
+#canBody a:active{
+    background-color: #F68B1E;
+} 
+#canBody a:hover{
+    color: #F68B1E;
+} 
+#canBody a{
+    padding: 5px 0px;
+}
+#can1{
+    font-size: .8rem;
+}
+#can2 div{
+    font-size: .8rem;
+}
+#can3 div{
+    font-size: .8rem;
+}
+#can4 div{
+    font-size: .8rem;
+}
+#can4 div span{
+    color: #F68B1E;
+}
+#can5 a{
+    padding-block: 10px;
+}
+/* #offcanvas End */
+
+/* Navbar dropdown start */
 #HRC2 button{
     background-color: #F68B1E;
 }
-#HRC3 > ul > li > a > i{
+#HRC3{
+    font-weight: 500;
+}
+#HRC3MainLink > i{
     font-size: 1.5rem;
     font-weight: bolder;
 }
-#HRC3 > ul > li > a > span > i{
+#HRC3MainLink > span > i{
     font-size: .8rem;
     font-weight: bolder;
 }
-#HRC3 a:hover{
+#HRC3MainLink:hover{
     color: #F68B1E;
 }
+#drop1Content{
+    width: 200px;
+    font-weight: 350;
+    font-size: .875rem;
+}
+#drop1Content li a{
+    padding-block: 8px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#drop1Content li{
+    padding: 0;
+}
+#drop1Content li a:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+    font-weight: 500;
+}
+#drop1Content li button{
+    background-color: rgb(246, 139, 30);
+    width: 100%;
+    color: white;
+}
+#drop2Content{
+    width: 200px;
+    font-weight: 350;
+    font-size: .875rem;
+}
+#drop2Content li a{
+    padding-block: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 20px;
+}
+#drop2Content li{
+    padding: 0;
+}
+#drop2Content li a:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+    font-weight: 500;
+}
+#drop2Content li button{
+    background-color: #F68B1E;
+    width: 100%;
+    color: white;
+}
+/* Navbar dropdown end */
+
 #mainCon{
     background-color: rgb(236, 236, 237);
 }
@@ -59,10 +153,11 @@ header{
     color: rgba(0, 0, 0, 0.696);
 }
 #R1{
-    column-gap: 1.5em;
+    column-gap: 1em;
 }
 #R1C1{
     background-color: white;
+    padding-block: 0;
 }
 #R1C1 div a{
     text-decoration: none;
@@ -74,34 +169,37 @@ header{
     color: #F68B1E;
 } 
 #R1C1 div{
-    padding: 5px;
+    padding: 3px 0px;
+}
+#R1C3_Jforce{
+    margin-top: 2.9rem;
 }
 #R1C3_Jforce img{
     width: 100%;
+    height: 43%;
 }
 #R1C3_Box{
     font-size: .9rem;
-    margin-bottom: 2.2rem;
     width: 100%;
+    height: 45%;
     background-color: white; 
+    padding: 8px 4px;
+    font-weight: 500;
 }
 #R1C3_Box small{
-    font-size: .8rem;
-    /* margin-left: 3rem; */
-    /* position: absolute;
-    left: 60;
-    top: 35; */
-    
+    font-size: .8rem; 
+    font-weight: 200; 
 }
 #R1C3_Box img{
     width: 18%;
 }
 #R1C3_Box > div{
-    padding: 12px;
+    padding: 10px 5px;
 }
 #R2{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R2 > div:hover{
     transform: scale(1.02);
@@ -114,6 +212,7 @@ header{
 #R3{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R3 > div:hover{
     transform: scale(1.02);
@@ -123,9 +222,13 @@ header{
     text-decoration: none;
     color: black;
 }
+#R3Head{
+    background-color: rgb(230, 22, 1);
+}
 #R4{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R4 > div:hover{
     transform: scale(1.02);
@@ -138,6 +241,7 @@ header{
 #R5{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R5 > div:hover{
     transform: scale(1.02);
@@ -147,9 +251,13 @@ header{
     text-decoration: none;
     color: black;
 }
+#R5Head{
+    background-color: white;
+}
 #R6{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R6 > div:hover{
     transform: scale(1.02);
@@ -159,9 +267,13 @@ header{
     text-decoration: none;
     color: black;
 }
+#R6Head{
+    background-color: white;
+}
 #R7{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R7 > div:hover{
     transform: scale(1.02);
@@ -171,9 +283,13 @@ header{
     text-decoration: none;
     color: black;
 }
+#R7Head{
+    background-color: white;
+}
 #R8{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R8 > div:hover{
     transform: scale(1.02);
@@ -189,6 +305,7 @@ header{
 #R9{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R9 > div:hover{
     transform: scale(1.02);
@@ -204,6 +321,7 @@ header{
 #R10{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R10 > div:hover{
     transform: scale(1.02);
@@ -219,6 +337,7 @@ header{
 #R11{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R11 > div:hover{
     transform: scale(1.02);
@@ -230,6 +349,7 @@ header{
 #R12{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R12 > div:hover{
     transform: scale(1.02);
@@ -245,14 +365,19 @@ header{
 #R13{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R13 > div:hover{
     transform: scale(1.02);
     border: thin solid rgba(0, 0, 0, 0.075);
 }
+#R13Head{
+    background-color: white;
+}
 #R14{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R14 > div:hover{
     transform: scale(1.02);
@@ -272,6 +397,7 @@ header{
 #R15{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R15 > div:hover{
     transform: scale(1.02);
@@ -287,6 +413,7 @@ header{
 #R16{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R16 > div:hover{
     transform: scale(1.02);
@@ -302,6 +429,7 @@ header{
 #R17{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R17 > div:hover{
     transform: scale(1.02);
@@ -317,6 +445,7 @@ header{
 #R18{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R18 > div:hover{
     transform: scale(1.02);
@@ -332,6 +461,7 @@ header{
 #R19{
     column-gap: .5em;
     font-size: .88em;
+    background-color: white;
 }
 #R19 > div:hover{
     transform: scale(1.02);
@@ -343,6 +473,9 @@ header{
 }
 #R19Head{
     background-color: rgb(254, 226, 204);
+}
+#R20{
+    background-color: white;
 }
 #R20C{
     font-size: .75rem;

@@ -1,5 +1,5 @@
 @media (width < 1200px){
-    #HRC1 img{
+    #HRC1Jumimg{
         width: 45%;
     }
     #logBox{
@@ -8,6 +8,12 @@
     main{
         width: 35%;
         margin-inline: auto;
+    }
+    #R3Head{
+        font-size: .75rem;
+    }
+    #R3Head h5{
+        font-size: .75rem;
     }
     #colRect{
         height: 10rem;
@@ -42,6 +48,9 @@
     }
     #invR1C1{
         width: 95%;
+    }
+    #drop1Content{
+        display: none;
     }
     
 }

@@ -16,7 +16,7 @@
             <div class="row" id="firstLine" >
                 <div class="col-5 p-0">
                   <div id="first_C1">
-                        <a href="" class="align-content-center text-decoration-none">
+                        <a href="" class="align-content-center">
                             <img src="/multi/images/jumia_icon.png" alt="">
                             <b>Sell on Jumia</b>
                         </a>
@@ -40,8 +40,90 @@
         <div class="container-xl">
             <div class="row" id="HR">
                 <div class="col col-xl-2 bg-light align-content-center p-0 mx-start" id="HRC1">
-                        <button class="btn"><i class="bi bi-list"></i></button>
-                        <a href="/index.html"><img src="/multi/images/jumia_logo.png" alt=""></a>
+                    
+                    <div class="btn-group">
+                        <button type="button" class="btn" id="HRC1But" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-list"></i>
+                        </button>
+
+                        <ul class="dropdown-menu my-3" id="HRC1Dropdown">
+                            
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Appliances.png" alt="..." width="15%">
+                                    Appliances
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Phones&Tablets.png" alt="..." width="15%">
+                                    Phones & Tablets
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Health&Beauty.png" alt="..." width="15%">
+                                    Health & Beauty
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Home&Office.png" alt="..." width="15%">
+                                    Home & Office
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Electronics.png" alt="..." width="15%">
+                                    Electronics
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Fashion.png" alt="..." width="15%">
+                                    Fashion
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Supermarket.png" alt="..." width="15%">
+                                    Supermarket
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Computing.png" alt="..." width="15%">
+                                    Computing
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1BabyProduct.png" alt="..." width="15%">
+                                    Baby Products
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1Gaming.png" alt="..." width="15%">
+                                    Gaming
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    Musical Instruments
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="/multi/images/R1OtherCategories.png" alt="..." width="15%">
+                                    Other categories
+                                </a>
+                            </div> 
+                            
+                        </ul>
+                    </div>
+
+                    <a href="/index.html"><img src="/multi/images/jumia_logo.png" alt="" id="HRC1Jumimg"></a>
                 </div>
                 <div class="col-6 d-none d-xl-block bg-light align-content-center p-0" id="HRC2">
                     <form class="">
@@ -55,26 +137,78 @@
                 <div class="col-3 col-sm bg-light align-content-center p-1" id="HRC3">
                     <ul class="d-flex list-unstyled justify-content-xl-center justify-content-end align-content-center pt-3">
                         <li class=" ms-2 align-content-center pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <i class="bi bi-search d-xl-none"></i>
-                                <i class="bi bi-person me-1 d-none d-xl-inline" ></i>
-                                <span class="d-none d-xl-inline">
-                                    Account
-                                    <i class="bi bi-chevron-down ms-1"></i>
-                                </span>
-                            </a>
+                            <div class="dropdown" id="drop1">
+                                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown" id="HRC3MainLink">
+                                    <i class="bi bi-search d-xl-none"></i>
+                                    <i class="bi bi-person me-1 d-none d-xl-inline" ></i>
+                                    <span class="d-none d-xl-inline">
+                                        Account
+                                        <i class="bi bi-chevron-down ms-1"></i>
+                                    </span>
+                                </a>
+                               
+                                <ul class="dropdown-menu py-0" id="drop1Content">
+                                    <li class="p-2 py-3">
+                                        <button class="btn " type="button">
+                                            <a href="/HTML/first.html" class="text-decoration-none text-light">
+                                                Sign In
+                                            </a>
+                                        </button>
+                                    </li>
+                                    <li class="ps-2">
+                                        <a class="border-top border-2 align-content-center" href="#">
+                                            <img src="/multi/images/HACCImg1.png" class="me-2" alt="" width="16%">
+                                            My Account
+                                        </a>
+                                    </li>
+                                    <li class="ps-2">
+                                        <a class="align-content-center" href="#">
+                                            <img src="/multi/images/HACCImg2.png" class="me-2" alt="" width="16%">
+                                            Orders
+                                        </a>
+                                    </li>
+                                    <li class="ps-2">
+                                        <a class="align-content-center" href="#">
+                                            <img src="/multi/images/HAACImg3.png" alt="" class="me-2" width="16%">
+                                            Wishlist
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class=" ms-2 align-content-center pe-3">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <i class="bi bi-question-circle"></i>
-                                <span class="d-none d-xl-inline">
-                                 Help
-                                    <i class="bi bi-chevron-down ms-1"></i>
-                                </span>
-                            </a>
+                            <div class="dropdown" id="drop2">
+                                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown" id="HRC3MainLink">
+                                    <i class="bi bi-question-circle"></i>
+                                    <span class="d-none d-xl-inline">
+                                        Help
+                                           <i class="bi bi-chevron-down ms-1"></i>
+                                    </span>
+                                </a>
+                               
+                                <ul class="dropdown-menu py-0" id="drop2Content">
+                                    <li>
+                                        <a class="" href="/HTML/fourth.html">
+                                        Help Center
+                                        </a>
+                                    </li>
+                                    <li><a class="" href="#">Place an Order</a></li>
+                                    <li><a class="" href="#">Payment Options</a></li>
+                                    <li><a class="" href="#">Track an Order</a></li>
+                                    <li><a class="" href="#">Cancel an Order</a></li>
+                                    <li><a class="" href="#">Returns & Refunds</a></li>
+                                    <li><a class="border-bottom border-2" href="#">Wishlist</a></li>
+                                    <li class="p-2 py-3">
+                                        <button class="btn btn-warning" type="button">
+                                            <img src="/multi/images/HACCImgLive.png" alt="..." width="18%">
+                                            Live Chat
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class=" ms-2 align-content-center pe-5 pe-xl-0">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="#" id="HRC3MainLink">
                                 <i class="bi bi-cart3"></i>
                                 <span class="d-none d-xl-inline">
                                  Cart
