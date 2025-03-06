@@ -52,7 +52,9 @@
     #drop1Content{
         display: none;
     }
-    
+    #more{
+        display: none;
+    }
 }
 @media (width < 992px){
     #logBox{

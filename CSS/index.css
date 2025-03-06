@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#pg1Body{
+    background-color: rgb(236, 236, 237);
+}
 main{
     background-color: rgb(236, 236, 237);
 }
@@ -152,23 +155,177 @@ header{
     font-size: .8em;
     color: rgba(0, 0, 0, 0.696);
 }
+
+/* Row 1: Dropend */
+.R1drop{
+    position: relative;
+}
+.dropEndContent{
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    color: black;
+}
+#R1drop1:hover > #dropEndContent1{
+    display: block;
+    left: 183;
+    top: 0;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    font-size: 0.6rem;
+}
+/* #dropEndContent1{
+    text-decoration: none;
+    font-size: .8rem;
+    color: #F68B1E;  
+    
+} */
+#R1drop2:hover > #dropEndContent2{
+    display: block;
+    left: 183;
+    top: -35;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+
+#R1drop3:hover > #dropEndContent3{
+    display: block;
+    left: 183;
+    top: -72.5;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+
+#R1drop4:hover > #dropEndContent4{
+    display: block;
+    left: 183;
+    top: -108;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop5:hover > #dropEndContent5{
+    display: block;
+    left: 183;
+    top: -143;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop6:hover > #dropEndContent6{
+    display: block;
+    left: 183;
+    top: -179;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop7:hover > #dropEndContent7{
+    display: block;
+    left: 183;
+    top: -211.5;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop8:hover > #dropEndContent8{
+    display: block;
+    left: 183;
+    bottom: -134.5px;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop9:hover > #dropEndContent9{
+    display: block;
+    left: 183;
+    bottom: -95.5px;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop10:hover > #dropEndContent10{
+    display: block;
+    left: 183;
+    bottom: -59px;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop11:hover > #dropEndContent11{
+    display: block;
+    left: 183;
+    bottom: -34px;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
+#R1drop12:hover > #dropEndContent12{
+    display: block;
+    left: 183;
+    bottom: 0;
+    width: 765px;
+    height: 407px;
+    border-radius: 0 5px 5px 0;
+    color: rgba(0, 0, 0, 0.034);
+    background-color: white;
+    font-size: 0.6rem;
+}
 #R1{
     column-gap: 1em;
 }
 #R1C1{
     background-color: white;
     padding-block: 0;
+    border-radius: 5px;
+}
+#R1C1:hover{
+    border-radius: 5px 0 0 5px;
 }
 #R1C1 div a{
     text-decoration: none;
     display: block;
     font-size: .8rem;
-    color: black;
+    color: rgba(0, 0, 0, 0.8);
 } 
 #R1C1 div a:hover{
     color: #F68B1E;
+    border-radius: 0 5px 5px 0;
 } 
-#R1C1 div{
+#R1C1 > div{
     padding: 3px 0px;
 }
 #R1C3_Jforce{
@@ -208,6 +365,14 @@ header{
 #R2 a{
     text-decoration: none;
     color: black;
+}
+.horizontal-scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.horizontal-scroll .col{
+    display: inline-block;
+    float: none;
 }
 #R3{
     column-gap: .5em;
@@ -492,6 +657,25 @@ header{
 }
 #R20C h3{
     font-size: .8775rem;
+}
+#footAppear{
+    font-size: .625rem;
+    /* padding: 2rem; */
+}
+#footAppear div{
+    padding: .5rem;
+}
+#footAppear div a{
+    width: 100%;
+    text-wrap: nowrap;
+    /* padding: rem; */
+}
+#Showmore{
+    color: #F68B1E;
+    text-decoration: none;
+}
+#Showmore:active{
+    display: none;
 }
 #FR1{
     font-size: .75rem;
