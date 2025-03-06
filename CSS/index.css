@@ -670,13 +670,7 @@ header{
     text-wrap: nowrap;
     /* padding: rem; */
 }
-#Showmore{
-    color: #F68B1E;
-    text-decoration: none;
-}
-#Showmore:active{
-    display: none;
-}
+
 #FR1{
     font-size: .75rem;
     color: white;  
